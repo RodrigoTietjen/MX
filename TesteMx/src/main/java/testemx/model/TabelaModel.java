@@ -5,7 +5,6 @@ import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
 
-import testemx.dto.ConsultarProdutoResponseV6;
 import testemx.dto.ProdutoV6;
 import testemx.service.impl.ProdutoQueryServiceImpl;;
 

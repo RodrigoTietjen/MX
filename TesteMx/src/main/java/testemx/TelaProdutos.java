@@ -1,29 +1,20 @@
 package testemx;
 
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import java.awt.GridBagLayout;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
-
 import java.awt.GridBagConstraints;
-import javax.swing.JTextField;
-import javax.swing.event.TableModelListener;
-import javax.swing.table.TableModel;
-
-import testemx.autenticacao.BaseAuth;
-import testemx.dto.ConsultarProdutoResponseV6;
-import testemx.evento.BuscaBtnListener;
-import testemx.model.TabelaModel;
-import testemx.service.impl.ProdutoQueryServiceImpl;
-
+import java.awt.GridBagLayout;
 import java.awt.Insets;
+
 import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
+import javax.swing.JTextField;
+
+import testemx.autenticacao.BaseAuth;
+import testemx.evento.BuscaBtnListener;
+import testemx.model.TabelaModel;
 
 public class TelaProdutos {
 
